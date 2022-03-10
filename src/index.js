@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Variable from './belajar_react_js_dasar/Variable';
+// import StateProps from './belajar_react_js_dasar/StateProps';
+// import Map from './belajar_react_js_dasar/Map';
+// import Lifecycle from  './belajar_react_js_dasar/Lifecycle';
+import Crud from './crud';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Variable />
+    <StateProps />
+    <Map />
+    <Lifecycle /> */}
+    <Crud />
   </React.StrictMode>,
   document.getElementById('root')
 );
